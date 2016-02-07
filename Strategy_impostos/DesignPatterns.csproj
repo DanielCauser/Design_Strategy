@@ -41,11 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Descontos\CalculadorDeDesconto.cs" />
+    <Compile Include="Descontos\DescontoPorVendaCasada.cs" />
+    <Compile Include="Descontos\Desconto.cs" />
+    <Compile Include="Descontos\DescontoParaMaisDe5Itens.cs" />
+    <Compile Include="Descontos\DescontoParaValorMaiorQue500Reais.cs" />
+    <Compile Include="Descontos\SemDesconto.cs" />
     <Compile Include="Impostos\CalculadorDeImposto.cs" />
     <Compile Include="Impostos\ICCC.cs" />
     <Compile Include="Impostos\ICMS.cs" />
     <Compile Include="Impostos\Imposto.cs" />
     <Compile Include="Impostos\ISS.cs" />
+    <Compile Include="Impostos\Item.cs" />
     <Compile Include="Impostos\Orcamento.cs" />
     <Compile Include="Investimento\ARROJADO.cs" />
     <Compile Include="Investimento\CONSERVADOR.cs" />
