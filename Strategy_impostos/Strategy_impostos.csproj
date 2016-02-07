@@ -41,14 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculadorDeImposto.cs" />
-    <Compile Include="ICCC.cs" />
-    <Compile Include="ICMS.cs" />
-    <Compile Include="Imposto.cs" />
-    <Compile Include="ISS.cs" />
-    <Compile Include="Orcamento.cs" />
+    <Compile Include="Impostos\CalculadorDeImposto.cs" />
+    <Compile Include="Impostos\ICCC.cs" />
+    <Compile Include="Impostos\ICMS.cs" />
+    <Compile Include="Impostos\Imposto.cs" />
+    <Compile Include="Impostos\ISS.cs" />
+    <Compile Include="Impostos\Orcamento.cs" />
+    <Compile Include="Investimento\ARROJADO.cs" />
+    <Compile Include="Investimento\CONSERVADOR.cs" />
+    <Compile Include="Investimento\ContaBancaria.cs" />
+    <Compile Include="Investimento\MODERADO.cs" />
+    <Compile Include="Investimento\TipoInvestimento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Investimento\RealizadorDeInvestimento.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
