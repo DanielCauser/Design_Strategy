@@ -50,10 +50,14 @@
     <Compile Include="Impostos\CalculadorDeImposto.cs" />
     <Compile Include="Impostos\ICCC.cs" />
     <Compile Include="Impostos\ICMS.cs" />
+    <Compile Include="Impostos\ICPP.cs" />
+    <Compile Include="Impostos\IHIT.cs" />
+    <Compile Include="Impostos\IKCV.cs" />
     <Compile Include="Impostos\Imposto.cs" />
     <Compile Include="Impostos\ISS.cs" />
     <Compile Include="Impostos\Item.cs" />
     <Compile Include="Impostos\Orcamento.cs" />
+    <Compile Include="Impostos\TemplateDeImpostoCondicional.cs" />
     <Compile Include="Investimento\ARROJADO.cs" />
     <Compile Include="Investimento\CONSERVADOR.cs" />
     <Compile Include="Investimento\ContaBancaria.cs" />
@@ -62,6 +66,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Investimento\RealizadorDeInvestimento.cs" />
+    <Compile Include="TemplateMethodRelatorio\GeradorDeRelatorio.cs" />
+    <Compile Include="TemplateMethodRelatorio\Relatorio.cs" />
+    <Compile Include="TemplateMethodRelatorio\RelatorioComplexo.cs" />
+    <Compile Include="TemplateMethodRelatorio\RelatorioSimples.cs" />
+    <Compile Include="TemplateMethodRelatorio\TemplateMethodRelatorio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
